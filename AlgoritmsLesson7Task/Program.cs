@@ -2,15 +2,13 @@
 
 namespace AlgoritmsLesson7Task
 {
-    class Program
+    public class Program
     {
-        const int N = 10;
-        const int M = 10;
         static void Main(string[] args)
         {
-            var countWay = GetCountWay();
+            var countWay = GetCountWay(10,10);
         }
-        static int GetCountWay()
+        public static int GetCountWay(int N, int M)
         {
             int[,] A = new int[N, M];
             int i, j;
